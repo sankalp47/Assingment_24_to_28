@@ -1,0 +1,17 @@
+/***************************Assinment_date_24***************/
+/***********Series_in_Decending***********/
+public class Main
+{
+	public static void main(String[] args) {
+		for(int i=10;i>=2;i=i-2){
+		    System.out.println(i);
+		}
+		int n = 10;
+		while(n>2){
+		    n-=2;
+		    System.out.println(n);
+		}
+	}
+}
+
+/***********
