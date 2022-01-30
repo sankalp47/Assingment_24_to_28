@@ -1,0 +1,22 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter p: ");
+        int p = sc.nextInt();
+        System.out.println("Enter r: ");
+        int r = sc.nextInt();
+        System.out.println("Enter n: ");
+        int n = sc.nextInt();
+        System.out.println("Enter t: ");
+        int t = sc.nextInt();
+        double A = 0;
+
+        A = p*Math.pow(1+(r/n),(n*t));
+        System.out.println(A);
+        double CI = A - p ;
+        System.out.println(CI);
+    }
+}
