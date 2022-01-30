@@ -1,0 +1,19 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String args[]) {
+        //your code here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int n = sc.nextInt();
+        System.out.println("Enter power of number: ");
+        int m = sc.nextInt();
+        int var = 1;
+
+        for(int i=1;i<=m;i++){
+            var = var * n;
+        }
+        System.out.println(var);
+    }    
+}
