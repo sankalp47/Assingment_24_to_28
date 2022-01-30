@@ -1,0 +1,18 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String args[]) {
+        //your code here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int n = sc.nextInt();
+        int i = 1;
+        int count = 0;
+        while(i<=10){
+            count = count + 1;
+            System.out.println("2 x "+ count + " = " + n*i);
+            i++;
+        }
+    }    
+}
