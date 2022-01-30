@@ -1,0 +1,19 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String args[]) {
+        //your code here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int n = sc.nextInt();
+        System.out.println("Enter second number: ");
+        int m = sc.nextInt();
+
+        n = n + m;
+        m = n - m;
+        n = n - m;
+        System.out.println(n);
+        System.out.println(m);
+    }    
+}
